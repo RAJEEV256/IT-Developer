@@ -29,12 +29,12 @@ function App() {
         <nav className="bg-gray-900 text-white p-4 shadow-md">
           <div className="container mx-auto flex justify-between items-center">
             <Link className="text-2xl font-bold tracking-wide hover:text-blue-400 transition" to="/">
-              IT DEVELOPER
+              Quizlet
             </Link>
             <div className="space-x-6">
               <Link to="/leaderboard" className="text-yellow-400 hover:text-yellow-300 transition font-bold">🏆 Leaderboard</Link>
-              <Link to="/login" className="hover:text-blue-400 transition">Login</Link>
-              <Link to="/register" className="hover:text-blue-400 transition">Register</Link>
+              <Link to="/login" className="hover:text-white-400 transition">Login</Link>
+              <Link to="/register" className="hover:text-white-400 transition">Register</Link>
             </div>
           </div>
         </nav>
